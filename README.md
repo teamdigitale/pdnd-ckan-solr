@@ -1,0 +1,2 @@
+# daf-ckan-solr
+Ckan solr is a specific component used by CKAN in the context of the Data Analytics Framework (DAF) project. Apache Solr is a highly reliable, scalable and fault tolerant software component, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
