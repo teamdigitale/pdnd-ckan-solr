@@ -15,21 +15,23 @@ The tools referenced in this repository are
 
 ## Project components
 
-* **CKAN** 2.6.2 is the current version chose for the project. The tool is included in this repository, available [here](https://github.com/teamdigitale/daf-ckan)
+* **CKAN** version 2.6.2, available [here](https://github.com/teamdigitale/daf-ckan).
 
-* **Solr** version 6.2 (packaged for CKAN and with some customizations)
+* **Solr** version 6.2, packaged for CKAN and with some customizations. What's inside this repository.
 
-* **PostgreSQL** version 10.8 is certified to work with the current CKAN distribution. PostgreSQL is pulled in as a dependency from the official Docker repositories (see Docker documentation below).
+* **PostgreSQL** version 10.1, modified for CKAN. The container is available [here](https://hub.docker.com/r/geosolutionsit/dati-ckan-docker/tags). The image is tagged `postgresql-10.1`.
 
-* **Redis** version 5.0.5 is certified to work with the current CKAN distribution. Redis is automatically pulled in as a dependency from the official Docker repositories (see Docker documentation below).
+* **Redis** version 5.0.5. Redis is automatically pulled in as a dependency from its [official Docker repository](https://hub.docker.com/_/redis).
 
 ## How to build this version of Solr and test it as part of CKAN
 
 This specific version of Solr is distributed and consumed in a form of Docker container.
 
-The container can be build using the `dockerfile` in the root of this repository.
+The container can be built using the `dockerfile` in the root of this repository.
 
-Docker-compose is used to build a fully-functional test environment (build the CKAN container and download pre-packaged dependencies - including solr). Instructions can be found in the [CKAN repository](https://github.com/teamdigitale/daf-ckan).
+Docker-compose is used to build a fully-functional test environment (build the CKAN container and download pre-packaged dependencies, including Solr).
+
+Instructions can be found in the [CKAN repository](https://github.com/teamdigitale/daf-ckan).
 
 ## How to contribute
 
