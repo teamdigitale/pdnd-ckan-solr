@@ -4,7 +4,7 @@ Ckan solr is a specific component used by CKAN in the context of the Data Analyt
 
 ## What is the Data & Analytics Framework (DAF)?
 
-More informations about the DAF can be found on the [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm)
+More informations about the DAF -a.k.a. Piattaforma Digitale Nazionale Dati (PDND)- can be found on the [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm)
 
 ## Tools references
 
