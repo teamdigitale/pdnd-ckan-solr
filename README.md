@@ -1,10 +1,10 @@
-# Data & Analytics Framework (DAF) CKAN
+# CKAN Solr for Piattaforma Digitale Nazionale Dati (PDND) - previously DAF
 
-Ckan solr is a specific component used by CKAN in the context of the Data Analytics Framework (DAF) project. Apache Solr is a highly reliable, scalable and fault tolerant software component, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
+Ckan solr is a specific component used by CKAN in the context of the PDND project. Apache Solr is a highly reliable, scalable and fault tolerant software component, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
 
-## What is the Data & Analytics Framework (DAF)?
+## What is the PDND?
 
-More informations about the DAF -a.k.a. Piattaforma Digitale Nazionale Dati (PDND)- can be found on the [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm)
+More informations about the PDND can be found on the [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm)
 
 ## Tools references
 
@@ -37,4 +37,4 @@ Instructions can be found in the [CKAN repository](https://github.com/teamdigita
 
 Contributions are welcome. Feel free to open issues and submit a pull request at any time!
 
-This is a temporary repository, still maintained because consumed by the production DAF environment. Anyway, an ongoing development work is moving on [here](https://github.com/italia/dati-ckan-docker).
+This repository is very specific to the PDND project that could be used as an example. Meanwhile, the community is working on an generic, [redistributable version](https://github.com/italia/dati-ckan-docker).
