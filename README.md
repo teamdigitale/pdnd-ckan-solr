@@ -1,10 +1,12 @@
-# CKAN Solr for Piattaforma Digitale Nazionale Dati (PDND) - previously DAF
+# CKAN Solr for Piattaforma Digitale Nazionale Dati (PDND), previously DAF
 
 Ckan solr is a specific component used by CKAN in the context of the PDND project. Apache Solr is a highly reliable, scalable and fault tolerant software component, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
 
-## What is the PDND?
+## What is the PDND (previously DAF)?
 
-More informations about the PDND can be found on the [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm)
+PDND stays for "Piattaforma Digitale Nazionale Dati" (the Italian Digital Data Platform), previously known as Data & Analytics Framework (DAF).
+
+You can find more informations about the PDND on the official [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm).
 
 ## Tools references
 
@@ -35,6 +37,14 @@ Instructions can be found in the [CKAN repository](https://github.com/teamdigita
 
 ## How to contribute
 
-Contributions are welcome. Feel free to open issues and submit a pull request at any time!
+Contributions are welcome. Feel free to [open issues](./issues) and submit a [pull request](./pulls) at any time, but please read [our handbook](https://github.com/teamdigitale/daf-handbook) first.
 
-This repository is very specific to the PDND project that could be used as an example. Meanwhile, the community is working on an generic, [redistributable version](https://github.com/italia/dati-ckan-docker).
+## License
+
+Copyright (c) 2019 Presidenza del Consiglio dei Ministri
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>.
